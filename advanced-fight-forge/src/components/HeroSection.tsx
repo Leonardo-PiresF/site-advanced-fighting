@@ -26,7 +26,7 @@ const HeroSection = () => {
 
         <a
           href="#contato"
-          className="inline-block bg-accent text-accent-foreground font-heading text-lg md:text-xl font-bold uppercase px-10 py-4 rounded-sm hover:scale-105 transition-transform duration-200 animate-pulse-glow"
+          className="inline-block bg-accent text-accent-foreground font-heading text-lg md:text-xl font-bold uppercase px-10 py-4 rounded-sm hover:scale-105 hover:shadow-[0_0_28px_4px_hsla(0,80%,50%,0.45)] transition-all duration-300 shadow-[0_0_18px_2px_hsla(0,80%,50%,0.25)]"
         >
           Agendar aula experimental grátis
         </a>
