@@ -1,3 +1,8 @@
+import profDecio from "@/assets/prof_decio.png";
+import profLary from "@/assets/prof_lary.png";
+import profPrimata from "@/assets/prof_primata.png";
+import profBruna from "@/assets/prof_bruna.png";
+
 interface Teacher {
     id: number;
     name: string;
@@ -12,28 +17,28 @@ const teachers: Teacher[] = [
         name: "Décio Marques",
         martialArt: "Faixa preta 2°grau",
         role: "jiu-jitsu",
-        image: "src\\assets\\prof_decio.png",
+        image: profDecio,
     },
     {
         id: 2,
         name: "Laryssa Marques",
         martialArt: "Faixa roxa 3º grau",
         role: "Jiu-jitsu kids e adolescentes",
-        image: "src\\assets\\prof_lary.png",
+        image: profLary,
     },
     {
         id: 3,
         name: "Primata Boxe",
         martialArt: "Professor extremamente experiente e conceituado no mundo do boxe",
         role: "Boxe",
-        image: "src\\assets\\prof_primata.png",
+        image: profPrimata,
     },
     {
         id: 4,
         name: "Bruna Santiago",
         martialArt: "Prajied preto",
         role: "Muay Thai",
-        image: "src\\assets\\prof_bruna.png",
+        image: profBruna,
     },
 ];
 

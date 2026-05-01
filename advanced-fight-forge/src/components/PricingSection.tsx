@@ -186,7 +186,7 @@ const PricingSection = () => {
         <section id="precos" className="py-24 bg-secondary relative grunge-overlay">
             <div className="container mx-auto px-4 relative z-10">
                 <h2 className="font-heading text-4xl md:text-5xl font-bold text-center mb-4 text-foreground">
-                    PLANOS E <span className="text-gradient-red">PREÇOS</span>
+                    PLANOS E <span className="text-gradient-red">VALORES</span>
                 </h2>
                 <p className="text-muted-foreground text-center max-w-lg mx-auto mb-12">
                     Quanto mais você se compromete, mais você economiza. Escolha o plano ideal para você.
