@@ -1,6 +1,8 @@
 import bjjImg from "@/assets/bjj.jpg";
 import muaythaiImg from "@/assets/muaythai.png";
 import boxingImg from "@/assets/boxing.jpg";
+import bjjkidsImg from "@/assets/bjj-kid.jpg";
+
 
 const modalities = [
   {
@@ -20,6 +22,12 @@ const modalities = [
     subtitle: "O nobre esporte",
     description: "Agilidade, reflexo e potência. Melhore seu condicionamento físico enquanto aprende a se defender.",
     image: boxingImg,
+  },
+  {
+    title: "jiu-jitsu kids e adolescentes",
+    subtitle: "Jiu-Jitsu para crianças e adolescentes",
+    description: "Desenvolva disciplina, respeito e habilidades de defesa pessoal desde cedo. Aulas adaptadas para todas as idades.",
+    image: bjjkidsImg,
   },
 ];
 
